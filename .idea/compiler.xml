@@ -22,11 +22,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="family" />
+        <module name="biz" />
+        <module name="config" />
+        <module name="dal" />
+        <module name="web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="biz" target="1.5" />
+      <module name="config" target="1.5" />
+      <module name="dal" target="1.5" />
       <module name="family" target="1.5" />
+      <module name="web" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
